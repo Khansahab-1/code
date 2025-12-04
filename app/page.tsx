@@ -164,7 +164,7 @@ export default function Home() {
                     <div className="w-12 h-12 bg-accent/20 rounded-lg flex items-center justify-center mb-4">
                       <Icon className="w-6 h-6 text-accent" />
                     </div>
-                    <h3 className="text-xl font-semibold mb-3">{feature.title}</h3>
+                    <h3 className="text-xl font-semibold mb-3">{feature.title} </h3>
                     <p className="text-foreground/70 leading-relaxed">{feature.description}</p>
                   </div>
                 )
