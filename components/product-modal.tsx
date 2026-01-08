@@ -29,7 +29,7 @@ export default function ProductModal({
     const pairs = Math.floor(selectedQuantity / 2);
     const remaining = selectedQuantity % 2;
 
-    return pairs * 500 + remaining * pricePerBottle;
+    return pairs * 700 + remaining * pricePerBottle;
   }
 
   return selectedQuantity * pricePerBottle;
@@ -44,7 +44,6 @@ I'd like to order:
 • Product: ${product.name}
 • Quantity: ${selectedQuantity}
 • Size: 6ml
-• Category: ${product.category ?? ""}
 • Subtotal: ₹${subTotal}
 
 Please confirm availability.`;
