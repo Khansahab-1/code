@@ -26,9 +26,6 @@ export default function Header() {
 
         {/* Right Side */}
         <div className="flex items-center gap-4">
-          <span className="text-primary-foreground/80 text-sm font-medium hidden sm:inline">
-            {t("premiumFragrances")}
-          </span>
           <LanguageSwitcher />
         </div>
       </nav>

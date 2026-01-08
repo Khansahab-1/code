@@ -10,64 +10,64 @@ import { useLanguage } from "@/lib/language-context"
 
 const productsByCategory: Record<number, any[]> = {
   1: [
-    { id: 1, name: "Oud E Kashmir", price: "300", ML: "6",offer: "Buy 2 @ 500", image: "/Kashmiri_oud.webp" },
-    { id: 2, name: "Oud E Rose", price: "300", ML: "6",offer: "Buy 2 @ 500", image: "/rose_oud.webp" },
-    { id: 3, name: "Amber Musk", price: "300", ML: "6",offer: "Buy 2 @ 500", image: "/musk-amber.webp" },
-    { id: 4, name: "Rawdah", price: "300", ML: "6",offer: "Buy 2 @ 500", image: "/rawdah.webp" },
-    { id: 5, name: "Musk E Tahara", price: "300",offer: "Buy 2 @ 500", ML: "6", image: "/musk-e-tahara.jpg" },
-    { id: 6, name: "Musk E Rijali", price: "300",offer: "Buy 2 @ 500", ML: "6", image: "/musk-e-rijali.jpg" },
-    { id: 7, name: "Hawaas", price: "300", ML: "6",offer: "Buy 2 @ 500", image: "/hawas.webp" },
-    { id: 8, name: "1001 Nights", price: "300", ML: "6",offer: "Buy 2 @ 500", image: "/1001-nights.png" },
-    { id: 9, name: "Ponds", price: "300", ML: "6",offer: "Buy 2 @ 500", image: "/ponds-attar.webp" },
+    { id: 1, name: "Oud E Kashmir", price: "400", ML: "6",offer: "Buy 2 @ 700", image: "/Kashmiri_oud.webp" },
+    { id: 2, name: "Oud E Rose", price: "400", ML: "6",offer: "Buy 2 @ 700", image: "/rose_oud.webp" },
+    { id: 3, name: "Amber Musk", price: "400", ML: "6",offer: "Buy 2 @ 700", image: "/musk-amber.webp" },
+    { id: 4, name: "Rawdah", price: "400", ML: "6",offer: "Buy 2 @ 700", image: "/rawdah.webp" },
+    { id: 5, name: "Musk E Tahara", price: "400",offer: "Buy 2 @ 700", ML: "6", image: "/musk-e-tahara.jpg" },
+    { id: 6, name: "Musk E Rijali", price: "400",offer: "Buy 2 @ 700", ML: "6", image: "/musk-e-rijali.jpg" },
+    { id: 7, name: "Hawaas", price: "400", ML: "6",offer: "Buy 2 @ 700", image: "/hawas.webp" },
+    { id: 8, name: "1001 Nights", price: "400", ML: "6",offer: "Buy 2 @ 700", image: "/1001-nights.png" },
+    { id: 9, name: "Ponds", price:"40 ", ML:"6 ", offer:"Buy 2 @ 75 ", image:"/ponds-attar.webp" },
   ],
 
   // French (2)
   2: [
-    { id: 10, name: "Z Paris", price: "300", ML: "6",offer: "Buy 2 @ 500", image: "/z-paris.jpg" },
-    { id: 11, name: "Gucci Flora", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/Gucci_Flora.webp" },
-    { id: 12, name: "Royal Oud", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/royal-oud.jpg" },
-    { id: 13, name: "Maarj", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/maarj.webp" },
-    { id: 14, name: "Rasasi Mukhallat Al Oud Clone", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/rasasi-mukhallat-al-oud.webp" },
-    { id: 15, name: "Rasasi Al Oud Clone", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/rasasi-al-oud-clone.jpg" },
+    { id: 10, name: "Z Paris", price: "400", ML: "6",offer: "Buy 2 @ 700", image: "/z-paris.jpg" },
+    { id: 11, name: "Gucci Flora", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/Gucci_Flora.webp" },
+    { id: 12, name: "Royal Oud", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/royal-oud.jpg" },
+    { id: 13, name: "Maarj", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/maarj.webp" },
+    { id: 14, name: "Rasasi Mukhallat Al Oud Clone", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/rasasi-mukhallat-al-oud.webp" },
+    { id: 15, name: "Rasasi Al Oud Clone", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/rasasi-al-oud-clone.jpg" },
   ],
 
   // Floral (3)
   3: [
-    { id: 16, name: "Mukhallat Emirates", price: "300", ML: "6",offer: "Buy 2 @ 500", image: "/Mukhallat-Emirates.jpg" },
-    { id: 17, name: "Purple Oud", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/purple-oud.jpg" },
-    { id: 18, name: "Jannatul Firdaus", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/jannatul-firdaus.avif" },
-    { id: 19, name: "White Oud", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/white-oud.webp" },
-    { id: 20, name: "Ameer Al Oud", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/ameer-al-oud.jpg" },
-    { id: 21, name: "Sultan", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/Sultan_Attar.webp" },
+    { id: 16, name: "Mukhallat Emirates", price: "400", ML: "6",offer: "Buy 2 @ 700", image: "/Mukhallat-Emirates.jpg" },
+    { id: 17, name: "Purple Oud", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/purple-oud.jpg" },
+    { id: 18, name: "Jannatul Firdaus", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/jannatul-firdaus.avif" },
+    { id: 19, name: "White Oud", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/white-oud.webp" },
+    { id: 20, name: "Ameer Al Oud", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/ameer-al-oud.jpg" },
+    { id: 21, name: "Sultan", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/Sultan_Attar.webp" },
   ],
 
   // Woody (4)
   4: [
-    { id: 22, name: "Dove Attar", price: "300", ML: "6",offer: "Buy 2 @ 500", image: "/Dove_Attar.webp" },
-    { id: 23, name: "Mitti Attar", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/mitti.webp" },
-    { id: 24, name: "Dubai Oud", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/Dubai_Oud.webp" },
-    { id: 25, name: "Mafia Oud", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/mafia-oud.jpg" },
-    { id: 26, name: "Bin Shaikh", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/bin-shaikh.jpg" },
+    { id: 22, name: "Dove Attar", price: "400", ML: "6",offer: "Buy 2 @ 700", image: "/Dove_Attar.webp" },
+    { id: 23, name: "Mitti Attar", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/mitti.webp" },
+    { id: 24, name: "Dubai Oud", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/Dubai_Oud.webp" },
+    { id: 25, name: "Mafia Oud", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/mafia-oud.jpg" },
+    { id: 26, name: "Bin Shaikh", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/bin-shaikh.jpg" },
   ],
 
   // Citrus (5)
   5: [
-    { id: 27, name: "Lemon Fresh", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/attar-lemon.jpg" },
-    { id: 28, name: "Mausam", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/mausam.webp" },
-    { id: 29, name: "Oud Bergamot", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/oud-bergamot.png" },
-    { id: 30, name: "Citrus Oud", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/Citrus_oud.webp" },
-    { id: 31, name: "Nazaakat", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/nazaakat.webp" },
-    { id: 32, name: "Shamamah", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/shamamah.webp" },
+    { id: 27, name: "Lemon Fresh", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/attar-lemon.jpg" },
+    { id: 28, name: "Mausam", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/mausam.webp" },
+    { id: 29, name: "Oud Bergamot", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/oud-bergamot.png" },
+    { id: 30, name: "Citrus Oud", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/Citrus_oud.webp" },
+    { id: 31, name: "Nazaakat", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/nazaakat.webp" },
+    { id: 32, name: "Shamamah", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/shamamah.webp" },
   ],
 
   // Unisex (6)
   6: [
-    { id: 33, name: "Blue Girl", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/blue-girl.webp" },
-    { id: 34, name: "Jasmin", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/jasmin.jpg" },
-    { id: 35, name: "Sadaf", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/sadaf.webp" },
-    { id: 36, name: "Red Rose", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/red-rose.jpg" },
-    { id: 37, name: "Aurum", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/aurum.jpg" },
-    { id: 38, name: "Sabaya", price: "300", ML: "6", offer: "Buy 2 @ 500", image: "/Attar-Sabaya.webp" },
+    { id: 33, name: "Blue Girl", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/blue-girl.webp" },
+    { id: 34, name: "Jasmin", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/jasmin.jpg" },
+    { id: 35, name: "Sadaf", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/sadaf.webp" },
+    { id: 36, name: "Red Rose", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/red-rose.jpg" },
+    { id: 37, name: "Aurum", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/aurum.jpg" },
+    { id: 38, name: "Sabaya", price: "400", ML: "6", offer: "Buy 2 @ 700", image: "/Attar-Sabaya.webp" },
   ],
 }
 
